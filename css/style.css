@@ -6,6 +6,12 @@ body {
     margin: 15vw;
   }
   
+.fundo {
+
+background-color:rgba(179, 179, 179, 0.253);
+
+  }
+
   input#potencia {
     width: 35px;
   }
