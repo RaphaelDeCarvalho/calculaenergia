@@ -12,7 +12,17 @@
 <h1 id="titulo">Calcular o valor de energia elétrica por mês</h1>
 <label>Potência: </label><input id="potencia" type='number' placeholder='1500'>W
 <br>
-<label>Tempo: </label><input id="tempom" type='number' placeholder='20'> minutos em <input id="tempod" type='number' placeholder='4'> dias por semana
+<label>Tempo: </label><input id="tempom" type='number' placeholder='20'> minutos em 
+<select id="diassem">
+  <option value="None">0</option>
+  <Option value=1>1</Option>
+  <Option value=2>2</Option>
+  <Option value=3>3</Option>
+  <Option value=4>4</Option>
+  <Option value=5>5</Option>
+  <Option value=6>6</Option>
+  <Option value=7>7</Option>
+</select> dias por semana
 <br>
 <label>Valor cobrado por Kw/hora na conta de energia: </label>R$ <input id="valorKwh" type='number' placeholder='0.21'>
 <br>
