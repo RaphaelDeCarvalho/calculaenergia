@@ -23,11 +23,15 @@ background-color:rgba(179, 179, 179, 0.253);
   }
   
   input#tempom {
-    width: 21px;
+    width: 15px;
   }
-  
+
+  input#tempod {
+    width: 15px;
+  }
+
   input#valorKwh {
-    width: 32px;
+    width: 26px;
   }
   .tooltip {
     text-decoration: none;
