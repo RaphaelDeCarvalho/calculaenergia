@@ -10,13 +10,18 @@
     <link rel="stylesheet" href="Estilo.css">
     <div class="fundo">
 <h1 id="titulo">Calcular o valor de energia elétrica por mês</h1>
-<label>Potência: </label><input id="potencia" type='number'>W<br>
-<label>Tempo: </label><input id="tempom" type='number'> minutos por dia<br>
-<label>Valor cobrado por Kw/h na conta de energia: </label><input id="valorKwh" type='number'>Kw/h<br><a class="tooltip" href="#">
+<label>Potência: </label><input id="potencia" type='number'>W
+<br>
+<label>Tempo: </label><input id="tempom" type='number'> minutos em <input id="tempod" type='number'> dias por semana
+<br>
+<label>Valor cobrado por Kw/h na conta de energia: </label><input id="valorKwh" type='number'>Kw/h
+<br>
+<a class="tooltip" href="#">
   Onde eu encontro isso?
   <span><img src="https://i.imgur.com/YPax5HC.gif">
   </span>
-</a><br><br>
+</a>
+<br><br>
 <button id='botaocalcular' onclick='calcular()'>Calcular Valor</button>
      </div>
 <script src="script/script.js"></script>
