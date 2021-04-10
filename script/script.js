@@ -3,10 +3,14 @@ function calcular(){
     pot = potencia.value
     //tempo de consumo da energia em minutos
     tmpm = tempom.value
+    //dias de consumo da energia por semana
+    tmpd = tempod.value
     //valor cobrado na conta de energia em Kw/h
     kWth = valorKwh.value
+    //tempo total de dias por semana no mês
+    tmpmes = tmpd*4.5
     //tempo de consumo da energia em minutos por mês
-    tmpmtot = tmpm*30
+    tmpmtot = tmpm*tmpmes
     //tempo de consumo de energia por mês em horas
     tmph = tmpmtot/60
     //calculo de Watt em Kilowatt
